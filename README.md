@@ -13,7 +13,7 @@ A large language model (LLM) generates P4 programs from a structured prompt, and
 ## Requirements
 
 - Linux or WSL (Windows Subsystem for Linux)
-- Python 3.10+
+- Python 3.10+ (lower versions are likely to work fine)
 - Docker installed and running
 - [Groq API Key](https://console.groq.com/) (Mine is hardcoded in the code for the sake of testing in main.py)
 
