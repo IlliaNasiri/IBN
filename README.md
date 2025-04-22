@@ -34,7 +34,7 @@ pip install groq
 
 3. Install Docker (if not already installed):
 
-### On Ubuntu:
+### On Ubuntu/WSL:
 
 ```bash
 sudo apt-get update
@@ -43,21 +43,13 @@ sudo systemctl start docker
 sudo systemctl enable docker
 ```
 
-### On WSL:
-
-Follow the official [Docker Desktop for Windows with WSL2](https://docs.docker.com/desktop/windows/wsl/) installation guide.
-
 4. Ensure Docker is running. Verify with:
 
 ```bash
 docker --version
 ```
 
-5. Set your Groq API key (you can put this in your `.bashrc` or `.zshrc` for persistence):
-
-```bash
-export GROQ_API_KEY=your_api_key_here
-```
+5. Set your Groq API key and mofigy variable ```GROQ_API_KEY = ``` in `main.py`
 
 6. Pull the P4C Docker image:
 
