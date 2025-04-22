@@ -51,7 +51,7 @@ docker --version
 
 5. Set your Groq API key and mofigy variable ```GROQ_API_KEY = ``` in `main.py`
 
-6. Pull the P4C Docker image:
+6. [OPTIONAL] Pull the P4C Docker image:
 
 ```bash
 docker pull p4lang/p4c
