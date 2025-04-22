@@ -69,6 +69,9 @@ You will be prompted to enter a natural language networking intent.
 The script will attempt to generate a compilable P4 program based on your input, retrying automatically if validation fails.
 
 ## Method Summary
+- **High-Level Overview:**
+<img src="https://github.com/user-attachments/assets/b87a06b1-da57-4726-a1dc-4e3f8093a229" height="600">
+
 
 - **Few-shot learning** is used by embedding curated full and partial P4 examples directly inside the prompt.
 - **Large context model** (`meta-llama/llama-4-maverick`) is used to accommodate extensive examples.
